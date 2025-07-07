@@ -35,10 +35,10 @@ h3 { font: 700 18px 'Roboto', sans-serif; text-transform: uppercase; color: #656
 h4 { font: 700 22px 'Roboto', sans-serif; text-transform: uppercase; color: #656d78; padding: 0; margin: 0; text-align: center; }
 h5 { font: 400 24px Roboto, sans-serif; text-align: center; color: #50c1e9; padding: 0; margin: 0; }
 p { font: 13px/20px Roboto, sans-serif; color: #656d78; padding: 0; margin: 0; }
-a { font: 13px/20px Roboto, sans-serif; color: #50c1e9; padding: 0; margin: 0; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+a { font: 13px/20px Roboto, sans-serif; color: #232323; padding: 0; margin: 0; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
 a:hover,
 a:active,
-a:focus { color: #434a54; outline: none; text-decoration: none; }
+a:focus { color: #fff; outline: none; text-decoration: none; }
 .indents { padding: 0 70px; }
 .white { background: #fff; }
 .grey { background: #f3f4f8; }
@@ -46,8 +46,8 @@ a:focus { color: #434a54; outline: none; text-decoration: none; }
 .title h2 { font: 700 28px 'Roboto', sans-serif; color: #434a54; text-align: center; text-transform: uppercase;}
 .title span { display: block; width: 40px; height: 2px; margin: 10px auto 10px auto; background: #ccd0d9; }
 .title p { font: 14px Roboto, sans-serif; color: #656d78; text-align: center; }
-::selection { background: #50c1e9; color: #fff; }
-::-moz-selection { background: #50c1e9; color: #fff; }
+::selection { background: #232323; color: #fff; }
+::-moz-selection { background: #232323; color: #fff; }
 hr { border-top: 1px dashed #dde0e4; height: 1px; }
 .scrolltop { display: none; width: 30px; height: 30px; font-size: 10px; line-height: 2.8em; color: #fff; text-align: center; background: #50c1e9; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; position: fixed; bottom: 20px; right: 20px; }
 .scrolltop:hover { background: #343a43; color: #fff; }
@@ -129,24 +129,24 @@ header .header-6 { background-image: url(../img/slider-images/header-6.jpg); }*/
 .caption p { font: 13px Roboto, sans-serif; color: #fff; text-align: center; }
 
 /*------------------------
-	06. NAVBAR
+	06. NAVBAR and LINKS
 ------------------------*/
 .navbar { width: 100%; max-width: 1140px; min-height: 70px; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; margin: 0; z-index: 999; -webkit-transition: background .3s ease 0s; -moz-transition: background .3s ease 0s; -o-transition: background .3s ease 0s; transition: background .3s ease 0s; }
 .navbar-brand { margin: 9px 0; }
-.navbar li a { font: 400 16px 'Roboto', sans-serif; text-transform: uppercase; line-height: 20px; color: #2fb7ed; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; padding-top: 24px; padding-bottom: 24px; }
+.navbar li a { font: 400 16px 'Roboto', sans-serif; text-transform: uppercase; line-height: 20px; color: #232323; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; padding-top: 24px; padding-bottom: 24px; }
 .navbar li a:hover,
 .navbar li a:active,
 .navbar li a:focus { background: transparent; opacity: .4; outline: none; }
 .normal li a.current { background: transparent; opacity: .6; outline: none; }
 .navbar-toggle { margin-top: 14px; }
-.navbar-toggle i { font-size: 21px; color: #2fb7ed; }
+.navbar-toggle i { font-size: 21px; color: #232323; }
 .navbar-brand { display: block; width: 200px; height: 50px; background: url(../img/logo-light.png) no-repeat center; margin-top: 20px; }
 .navbar.offset { display: block; background: rgba(255, 255, 255, .97); -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .04); -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .04); box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .04); }
 .navbar.offset li a { color: #656d78; }
 .navbar.offset li a:hover,
 .navbar.offset li a:active,
-.navbar.offset li a:focus { background: transparent; color: #50c1e9; opacity: 1; outline: none; }
-.navbar.offset li a.current { background: transparent; color: #50c1e9; opacity: 1; outline: none; }
+.navbar.offset li a:focus { background: transparent; color: #a7a7a7; opacity: 1; outline: none; }
+.navbar.offset li a.current { background: transparent; color: #a7a7a7; opacity: 1; outline: none; }
 .offset .navbar-brand { background: url(../img/logo-dark.png) no-repeat center; }
 
 /*------------------------
