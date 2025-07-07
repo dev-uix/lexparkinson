@@ -29,10 +29,10 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 body { background-color: #434a54; margin: 50px 0; }
-h1 { font: 700 28px 'Yanone Kaffeesatz', sans-serif; color: #434a54; text-align: center; text-transform: uppercase;}
-h2 { font: 700 20px 'Yanone Kaffeesatz', sans-serif; text-transform: uppercase; color: #434a54; padding: 0; margin: 0; }
-h3 { font: 700 18px 'Yanone Kaffeesatz', sans-serif; text-transform: uppercase; color: #656d78; padding: 0; margin: 0; }
-h4 { font: 700 22px 'Yanone Kaffeesatz', sans-serif; text-transform: uppercase; color: #656d78; padding: 0; margin: 0; text-align: center; }
+h1 { font: 700 28px 'Roboto', sans-serif; color: #434a54; text-align: center; text-transform: uppercase;}
+h2 { font: 700 20px 'Roboto', sans-serif; text-transform: uppercase; color: #434a54; padding: 0; margin: 0; }
+h3 { font: 700 18px 'Roboto', sans-serif; text-transform: uppercase; color: #656d78; padding: 0; margin: 0; }
+h4 { font: 700 22px 'Roboto', sans-serif; text-transform: uppercase; color: #656d78; padding: 0; margin: 0; text-align: center; }
 h5 { font: 400 24px Roboto, sans-serif; text-align: center; color: #50c1e9; padding: 0; margin: 0; }
 p { font: 13px/20px Roboto, sans-serif; color: #656d78; padding: 0; margin: 0; }
 a { font: 13px/20px Roboto, sans-serif; color: #50c1e9; padding: 0; margin: 0; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
@@ -43,7 +43,7 @@ a:focus { color: #434a54; outline: none; text-decoration: none; }
 .white { background: #fff; }
 .grey { background: #f3f4f8; }
 .title { margin-bottom: 50px; }
-.title h2 { font: 700 28px 'Yanone Kaffeesatz', sans-serif; color: #434a54; text-align: center; text-transform: uppercase;}
+.title h2 { font: 700 28px 'Roboto', sans-serif; color: #434a54; text-align: center; text-transform: uppercase;}
 .title span { display: block; width: 40px; height: 2px; margin: 10px auto 10px auto; background: #ccd0d9; }
 .title p { font: 14px Roboto, sans-serif; color: #656d78; text-align: center; }
 ::selection { background: #50c1e9; color: #fff; }
@@ -58,7 +58,7 @@ hr { border-top: 1px dashed #dde0e4; height: 1px; }
 /*------------------------
 	02. BUTTON
 ------------------------*/
-.button { display: block; width: 160px; height: 40px; margin: auto; background: #50c1e9; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; font: 700 16px/2.4em 'Yanone Kaffeesatz', sans-serif; color: #fff; text-transform: uppercase; text-align: center; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.button { display: block; width: 160px; height: 40px; margin: auto; background: #50c1e9; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; font: 700 16px/2.4em 'Roboto', sans-serif; color: #fff; text-transform: uppercase; text-align: center; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
 .button i { font-size: 15px; padding-right: 5px; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
 .button span { display: inline-block; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
 .button:hover,
@@ -125,7 +125,7 @@ header .header-4 { background-image: url(../img/slider-images/header-4.jpg); }
 header .header-5 { background-image: url(../img/slider-images/header-5.jpg); }
 header .header-6 { background-image: url(../img/slider-images/header-6.jpg); }*/
 .caption { display: block; margin: 20% 0 -20% 0;}
-.caption h1 { font: 400 48px 'Yanone Kaffeesatz', sans-serif; color: #fff; text-transform: uppercase; text-align: center; margin: 0; padding: 0; }
+.caption h1 { font: 400 48px 'Roboto', sans-serif; color: #fff; text-transform: uppercase; text-align: center; margin: 0; padding: 0; }
 .caption p { font: 13px Roboto, sans-serif; color: #fff; text-align: center; }
 
 /*------------------------
@@ -133,7 +133,7 @@ header .header-6 { background-image: url(../img/slider-images/header-6.jpg); }*/
 ------------------------*/
 .navbar { width: 100%; max-width: 1140px; min-height: 70px; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; margin: 0; z-index: 999; -webkit-transition: background .3s ease 0s; -moz-transition: background .3s ease 0s; -o-transition: background .3s ease 0s; transition: background .3s ease 0s; }
 .navbar-brand { margin: 9px 0; }
-.navbar li a { font: 400 16px 'Yanone Kaffeesatz', sans-serif; text-transform: uppercase; line-height: 20px; color: #2fb7ed; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; padding-top: 24px; padding-bottom: 24px; }
+.navbar li a { font: 400 16px 'Roboto', sans-serif; text-transform: uppercase; line-height: 20px; color: #2fb7ed; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; padding-top: 24px; padding-bottom: 24px; }
 .navbar li a:hover,
 .navbar li a:active,
 .navbar li a:focus { background: transparent; opacity: .4; outline: none; }
@@ -167,7 +167,7 @@ header .header-6 { background-image: url(../img/slider-images/header-6.jpg); }*/
 #works .grid li.item { -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
 #works .grid li.big { width: 490px; }
 #works ul.filters { list-style-type: none; padding: 0; text-align: center; margin-bottom: 30px; }
-#works ul.filters li { display: inline-block; text-align: center; font: 700 16px 'Yanone Kaffeesatz', sans-serif; color: #656d78; text-transform: uppercase; background: transparent; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; padding: 3px 12px; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+#works ul.filters li { display: inline-block; text-align: center; font: 700 16px 'Roboto', sans-serif; color: #656d78; text-transform: uppercase; background: transparent; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; padding: 3px 12px; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
 #works ul.filters li:hover { color: #50c1e9; cursor: pointer; }
 #works ul.filters li.active { background: #50c1e9; color: #fff; cursor: pointer; }
 
@@ -186,7 +186,7 @@ header .header-6 { background-image: url(../img/slider-images/header-6.jpg); }*/
 ------------------------*/
 #parallax { background: url(../img/parallax.jpg) no-repeat fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 #parallax .indents { padding-top: 100px; padding-bottom: 100px; }
-#parallax h2 { font: 400 38px 'Yanone Kaffeesatz', sans-serif; color: #fff; text-align: center; }
+#parallax h2 { font: 400 38px 'Roboto', sans-serif; color: #fff; text-align: center; }
 #parallax h2 i { padding: 0 5px; font-size: 34px; color: #ed5564; }
 #parallax p { font: 14px Roboto, sans-serif; color: #fff; text-align: center; padding: 11px 0 50px; }
 #parallax .button { background: transparent; border: 2px solid rgba(255, 255, 255, .5); }
