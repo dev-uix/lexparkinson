@@ -73,7 +73,7 @@ hr { border-top: 1px dashed #dde0e4; height: 1px; }
 .image { display: block; width: 100%; height: 190px; overflow: hidden; position: relative; -webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
 .image img { display: block; height: 100%; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
 .image .overlay { width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0; background: rgba(80, 193, 233, .5); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
-.image .overlay h3 { font: 700 18px 'Yanone Kaffeesatz', sans-serif; color: #fff; text-transform: uppercase; margin-top: 20px; margin-left: 20px; opacity: 0; -webkit-transition: opacity .3s ease .15s; -moz-transition: opacity .3s ease .15s; -o-transition: opacity .3s ease .15s; transition: opacity .3s ease .15s; }
+.image .overlay h3 { font: 700 18px 'Roboto', sans-serif; color: #fff; text-transform: uppercase; margin-top: 20px; margin-left: 20px; opacity: 0; -webkit-transition: opacity .3s ease .15s; -moz-transition: opacity .3s ease .15s; -o-transition: opacity .3s ease .15s; transition: opacity .3s ease .15s; }
 .image .overlay h3 span { display: block; width: 20px; height: 1px; background: #fff; margin-left: 3px; margin-top: 3px; }
 .image:hover .overlay,
 .image:hover .overlay h3 { opacity: 1; }
@@ -118,10 +118,10 @@ hr { border-top: 1px dashed #dde0e4; height: 1px; }
 ------------------------*/
 header { display: block; width: 100%; height: 600px; -webkit-border-top-right-radius: 3px; -moz-border-top-right-radius: 3px; -o-border-top-right-radius: 3px; border-top-right-radius: 3px; -webkit-border-top-left-radius: 3px; -moz-border-top-left-radius: 3px; -o-border-top-left-radius: 3px; border-top-left-radius: 3px; overflow: hidden; }
 header .head { width: 100%; height: 600px; background-size: cover; background-repeat: no-repeat; background-position: center; }
-header .header-1 { background-image: url(../img/slider-images/header-7.jpg); }
-/*header .header-2 { background-image: url(../img/slider-images/header-2.jpg); }
+header .header-1 { background-image: url(../img/slider-images/header-1.jpg); }
+header .header-2 { background-image: url(../img/slider-images/header-2.jpg); }
 header .header-3 { background-image: url(../img/slider-images/header-3.jpg); }
-header .header-4 { background-image: url(../img/slider-images/header-4.jpg); }
+/*header .header-4 { background-image: url(../img/slider-images/header-4.jpg); }
 header .header-5 { background-image: url(../img/slider-images/header-5.jpg); }
 header .header-6 { background-image: url(../img/slider-images/header-6.jpg); }*/
 .caption { display: block; margin: 20% 0 -20% 0;}
@@ -239,7 +239,7 @@ article a:hover,
 article a:active,
 article a:focus { color: #50c1e9; text-decoration: none; outline: none; }
 article p.time { font-size: 12px; color: #aab2bd; padding-bottom: 12px; }
-article .button { width: 85px; height: 30px; margin: 18px 0 0; background: transparent; border: 1px solid #50c1e9; font: 700 16px/1.9em 'Yanone Kaffeesatz', sans-serif; color: #50c1e9; }
+article .button { width: 85px; height: 30px; margin: 18px 0 0; background: transparent; border: 1px solid #50c1e9; font: 700 16px/1.9em 'Roboto', sans-serif; color: #50c1e9; }
 article .button:hover,
 article .button:focus { background: #50c1e9; color: #fff; }
 #blog-page article { margin-bottom: 0; padding: 50px 0; }
