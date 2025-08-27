@@ -302,14 +302,18 @@ html.push(textArray[i]);
   if( $('.onepage').length ){
 
     $('header nav ul li a').on('click', function (e) {
-      e.preventDefault();
-      $(document).off("scroll");            
-      $('header nav ul li a').removeClass('active');          
-      $(this).addClass('active');
-      var target = $(this).attr("href");
-      target = $(target);
-      scrollbar.scrollTo(0, target.position().top, 1000);
-  });
+  var target = $(this).attr("href");
+
+  // Only intercept if it's a hash link (scrolling on the same page)
+  if (target.startsWith("#")) {
+    e.preventDefault();
+    $(document).off("scroll");            
+    $('header nav ul li a').removeClass('active');          
+    $(this).addClass('active');
+    target = $(target);
+    scrollbar.scrollTo(0, target.position().top, 1000);
+  }
+});
 
   }
 
