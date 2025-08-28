@@ -287,35 +287,42 @@ html.push(textArray[i]);
 
 
   // SMOOTH SCROLL JS
-
-
+ 
+ 
   var onur = 0.1;
   if( $(window).width() <= 1024 ){
     var onur = 0.02;
   }
-
+ 
     var scrollbar = Scrollbar.init(
       document.getElementById('page-scroll'), { 
         damping: onur,  
       });
-
+ 
   if( $('.onepage').length ){
-
+ 
     $('header nav ul li a').on('click', function (e) {
-  var target = $(this).attr("href");
-
-  // Only intercept if it's a hash link (scrolling on the same page)
-  if (target.startsWith("#")) {
-    e.preventDefault();
-    $(document).off("scroll");            
-    $('header nav ul li a').removeClass('active');          
-    $(this).addClass('active');
-    target = $(target);
-    scrollbar.scrollTo(0, target.position().top, 1000);
+      e.preventDefault();
+      $(document).off("scroll");            
+      $('header nav ul li a').removeClass('active');          
+      $(this).addClass('active');
+      var target = $(this).attr("href");
+      target = $(target);
+      scrollbar.scrollTo(0, target.position().top, 1000);
+  });
+ 
   }
-});
-
-  }
+ 
+/* fixed item
+if($('#fixed').length   ){
+      scrollbar.addListener(({ offset }) => {  
+        if (offset.y >= 45 ){
+          fixed.style.top = offset.y + 'px';
+        }else{
+          $('header').removeAttr('style');
+        }
+      });
+}
 
 // fixed item
 if($('#fixed').length   ){
@@ -326,7 +333,38 @@ if($('#fixed').length   ){
           $('header').removeAttr('style');
         }
       });
+}*/
+
+
+// fixed item
+if($('#fixed').length ){
+     // Declare and assign the variable 'fixed'
+     var fixed = document.getElementById('fixed');
+
+     scrollbar.addListener(({ offset }) => {  
+       if (offset.y >= 45 ){
+         fixed.style.top = offset.y + 'px'; // This line will now work correctly
+       }else{
+         $('header').removeAttr('style');
+       }
+     });
 }
+
+// fixed item
+if($('#fixed').length ){
+     // Declare and assign the variable 'fixed'
+     var fixed = document.getElementById('fixed');
+
+     scrollbar.addListener(({ offset }) => {  
+       if (offset.y >= 45 ){
+         fixed.style.top = offset.y + 'px'; // This line will now work correctly
+       }else{
+         $('header').removeAttr('style');
+       }
+     });
+}
+
+
 
 if( $('.onepage').length ){
   scrollbar.addListener(({ offset }) => {  
@@ -357,7 +395,7 @@ if( $('.onepage').length ){
   }  
 
 
-      // isotope
+    // isotope
       function isotope(){
         if ( $('.masonry').length ){
         var $container = $('.masonry');  
@@ -382,7 +420,6 @@ if( $('.onepage').length ){
       });
           return false;
       });   
-          
     }
   }
 
