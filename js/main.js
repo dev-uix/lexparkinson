@@ -24,7 +24,7 @@ function ajaxLoad(){
   workslider();
   lightbox();
   ContactForm(); 
-  videoPlay();
+  //videoPlay();
   charts();
   isotope();
   contactmap();
@@ -102,7 +102,7 @@ function lightbox() {
 
 
 
-// VIDEO HOVER PLAY
+/* VIDEO HOVER PLAY
 function videoPlay(){
   if($('.video-wrapper').length){
     setTimeout(() => {
@@ -126,7 +126,7 @@ function videoPlay(){
   }
 
 
-}
+}*/
 
 
   
