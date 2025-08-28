@@ -9,11 +9,11 @@ url("./flaticon.svg?36d09e510abf059043c2ae19f3d6fc33#flaticon") format("svg");
 
 @font-face {
   font-family: "flaticon";
-  src: url("../icon-fonts/flaticon.ttf?36d09e510abf059043c2ae19f3d6fc33") format("truetype"),
-       url("../icon-fonts/flaticon.woff?36d09e510abf059043c2ae19f3d6fc33") format("woff"),
-       url("../icon-fonts/flaticon.woff2?36d09e510abf059043c2ae19f3d6fc33") format("woff2"),
-       url("../icon-fonts/flaticon.eot?36d09e510abf059043c2ae19f3d6fc33#iefix") format("embedded-opentype"),
-       url("../icon-fonts/flaticon.svg?36d09e510abf059043c2ae19f3d6fc33#flaticon") format("svg");
+  src: url("../icon-fonts/flat-icon/flaticon.ttf?36d09e510abf059043c2ae19f3d6fc33") format("truetype"),
+       url("../icon-fonts/flat-icon/flaticon.woff?36d09e510abf059043c2ae19f3d6fc33") format("woff"),
+       url("../icon-fonts/flat-icon/flaticon.woff2?36d09e510abf059043c2ae19f3d6fc33") format("woff2"),
+       url("../icon-fonts/flat-icon/flaticon.eot?36d09e510abf059043c2ae19f3d6fc33#iefix") format("embedded-opentype"),
+       url("../icon-fonts/flat-icon/flaticon.svg?36d09e510abf059043c2ae19f3d6fc33#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
