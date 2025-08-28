@@ -1,21 +1,7 @@
 'use strict'; 
 
 
-/*----------------------------------------------------------------------*/
-/* =  Preloader
-/*----------------------------------------------------------------------*/
-$(window).on('load', function () {
 
-  gsap.to($('.preloader .circle'), .7, {strokeDashoffset:0, delay:1 });
-  //gsap.to('.preloader .profile-image', {duration: 4, rotationX:360, delay:1.7, ease:Cubic.easeOut});
-  
-  gsap.to($('.loading'), 0.7, {y:-100, autoAlpha:0, delay:1.7 });
-  gsap.to($('#loader'), 3, {y:-3000, delay:2, ease:'easeOutExpo' } );
-  
-  setTimeout(function(){ $('#loader').remove(); }, 3000);
- 
-
-});
 
 function ajaxLoad(){
 
